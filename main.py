@@ -9,8 +9,9 @@ earthquake_time=earthquake['time']
 earthquake_level=earthquake['level_of_depth']
 
 m = folium.Map(
-    zoom_start=0,
+    zoom_start=2,
     max_bounds=True,
+    min_zoom=2
     min_lat=-85 ,
     max_lat=85 ,
     min_lon=-175,
